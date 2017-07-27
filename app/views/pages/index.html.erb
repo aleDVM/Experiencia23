@@ -4,12 +4,12 @@
     	<div class="loader">
     		<div class="loader-img"></div>
     	</div>
-
+backgrounds
 		<!-- Top menu -->
 		<nav class="navbar navbar-inverse navbar-fixed-top navbar-no-bg" role="navigation">
 			<div class="container">
 				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
+					<button type="button" class="navbar-toggle collapsed" data-togglebody="collapse" data-target="#top-navbar-1">
 						<span class="sr-only">Toggle navigation</span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
@@ -18,7 +18,7 @@
 					<a class="navbar-brand" href="">Trilli Bi - Bootstrap Landing Page</a>
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="top-navbar-1">
+				<div class="collapurlse navbar-collapse" id="top-navbar-1">
 					<ul class="nav navbar-nav navbar-right">
 						<li><a class="scroll-link" href="#top-content">Top</a></li>
 						<li><a class="scroll-link" href="#features">Features</a></li>
@@ -59,7 +59,7 @@
 	            <div class="row">
 	                <div class="col-sm-12 features section-description wow fadeIn">
 	                    <h2>Main features</h2>
-	                    <div class="divider-1 wow fadeInUp"><span></span></div>
+	                    <div class="divider-1 wow fadeInUp"><span></span></div>url
 	                    <p>
 	                    	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
 	                    	labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
@@ -68,7 +68,7 @@
 	            </div>
 	            <div class="row">
                 	<div class="col-sm-4 features-box wow fadeInUp">
-	                	<div class="features-box-icon">
+	                	<div class="features-box-icon">''
 	                		<span aria-hidden="true" class="icon_cogs"></span>
 	                	</div>
 	                    <h3>Easy To Use</h3>
@@ -114,7 +114,7 @@
 	            </div>
 	            <div class="row">
 	            	<div class="col-sm-6 more-features-box wow fadeInLeft">
-	                    <img src="assets/img/screenshots/admin-1.png" alt="">
+	                    <img src="<%= asset_path 'screenshots/admin-1.png'%>" alt="">
 	                </div>
 	                <div class="col-sm-6 more-features-box wow fadeInUp">
 	                    <div class="more-features-box-text">
@@ -142,6 +142,7 @@
                         </div>
 	            	</div>
 	            </div>
+
 	        </div>
         </div>
 
@@ -160,11 +161,11 @@
 	            </div>
 	            <div class="row">
 	            	<div class="col-sm-4 screenshot-box wow fadeInUp">
-	                    <span aria-hidden="true" class="icon_group" data-img-src="<%= image_tag 'screenshots/1.jpg' %>" data-img-title="Recent users"></span>
+	                    <span aria-hidden="true" class="icon_group" data-img-src="assets/img/screenshots/1.jpg" data-img-title="Recent users"></span>
 	                    <h3>Recent users</h3>
 	                </div>
 	            	<div class="col-sm-4 screenshot-box wow fadeInDown">
-	            		<span aria-hidden="true" class="icon_clock" data-img-src="<%= image_tag 'screenshots/2.jpg' %>" data-img-title="Real time data"></span>
+	            		<span aria-hidden="true" class="icon_clock" data-img-src="assets/img/screenshots/2.jpg" data-img-title="Real time data"></span>
 	            		<h3>Real time data</h3>
 	                </div>
 	                <div class="col-sm-4 screenshot-box wow fadeInUp">
@@ -259,7 +260,7 @@
 	                    		<a href="">John Doe, johndoe.com</a>
 	                    	</p>
 	                    	<div class="testimonial-single-image">
-	                    		<img src="assets/img/testimonials/1.jpg" alt="" data-at2x="assets/img/testimonials/1.jpg">
+	                    		<img src="<%= asset_path 'testimonials/1.jpg' %>" alt="" data-at2x="assets/img/testimonials/1.jpg">
 	                    	</div>
 	                    </div>
 	                    <div class="testimonial-single">
@@ -271,12 +272,11 @@
 	                    		<a href="">Jane Jonsson, blog.jane.com</a>
 	                    	</p>
 	                    	<div class="testimonial-single-image">
-	                    		<img src="assets/img/testimonials/2.jpg" alt="" data-at2x="assets/img/testimonials/2.jpg">
+	                    		<img src="<%= asset_path 'testimonials/2.jpg'%>"  alt="" data-at2x="assets/img/testimonials/2.jpg">
 	                    	</div>
-	                    </div>s.precompile += %w( admin.js admin.css )
-Rails.application.config.assets.precompile
-	                    <div class="testimonial-single">s.precompile += %w( admin.js admin.css )
-Rails.application.config.assets.precompile
+	                    </div>
+
+	                    <div class="testimonial-single">
 	                    	<p>
 	                    		Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
 	                    		lobortis nisl ut aliquip ex ea commodo consequat. Ut wisi enim ad minim veniam,
@@ -285,7 +285,7 @@ Rails.application.config.assets.precompile
 	                    		<a href="">John Doe, johndoe.com</a>
 	                    	</p>
 	                    	<div class="testimonial-single-image">
-	                    		<img src="assets/img/testimonials/3.jpg" alt="" data-at2x="assets/img/testimonials/3.jpg">
+	                    		<img src="<%= asset_path 'testimonials/3.jpg' %>" alt="" data-at2x="assets/img/testimonials/3.jpg">
 	                    	</div>
 	                    </div>
 	                    <div class="testimonial-single">
@@ -297,7 +297,7 @@ Rails.application.config.assets.precompile
 	                    		<a href="">Jane Jonsson, blog.jane.com</a>
 	                    	</p>
 	                    	<div class="testimonial-single-image">
-	                    		<img src="assets/img/testimonials/4.jpg" alt="" data-at2x="assets/img/testimonials/4.jpg">
+	                    		<img src="<%= asset_path 'testimonials/4.jpg' %>" alt="" data-at2x="assets/img/testimonials/4.jpg">
 	                    	</div>
 	                    </div>
 	                </div>
@@ -321,7 +321,7 @@ Rails.application.config.assets.precompile
 	            <div class="row">
 	                <div class="col-sm-4 about-us-box wow fadeInUp">
 		                <div class="about-us-photo">
-		                	<img src="assets/img/team/1.jpg" alt="" data-at2x="assets/img/team/1.jpg">
+		                	<img src="<%= asset_path 'team/1.jpg'%>" alt=""  data-at2x="assets/img/team/1.jpg">
 		                </div>
 	                    <h3>John Doe</h3>
 	                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
@@ -333,19 +333,18 @@ Rails.application.config.assets.precompile
 	                </div>
 	                <div class="col-sm-4 about-us-box wow fadeInDown">
 		                <div class="about-us-photo">
-		                	<img src="assets/img/team/2.jpg" alt="" data-at2x="assets/img/team/2.jpg">
+		                	<img src="<%= asset_path 'team/2.jpg'%>" alt=""  data-at2x="assets/img/team/2.jpg">
 		                </div>
 	                    <h3>Tim Brown</h3>
 	                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-	                    <div class="about-us-social">
-		                	<a class="ultm ultm-facebook ultm-32 ultm-square ultm-gray-to-color" href=""></a>
+	                    <div class="about-us-social"> <a class="ultm ultm-facebook ultm-32 ultm-square ultm-gray-to-color" href=""></a>
 		                	<a class="ultm ultm-dribbble ultm-32 ultm-square ultm-gray-to-color" href=""></a>
 		                    <a class="ultm ultm-twitter ultm-32 ultm-square ultm-gray-to-color" href=""></a>
 		                </div>
 	                </div>
 	                <div class="col-sm-4 about-us-box wow fadeInUp">
 		                <div class="about-us-photo">
-		                	<img src="assets/img/team/3.jpg" alt="" data-at2x="assets/img/team/3.jpg">
+		                	<img src="<%= asset_path 'team/3.jpg'%>" alt=" " data-at2x="assets/img/team/3.jpg">
 		                </div>
 	                    <h3>Sarah Red</h3>
 	                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
@@ -356,8 +355,8 @@ Rails.application.config.assets.precompile
 		                </div>
 	                </div>
 	            </div>
-	            <div class="row">s.precompile += %w( admin.js admin.css )
-Rails.application.config.assets.precompile
+	            <div class="row">
+
 	            	<div class="col-sm-12">
 	            		<div class="modal-button">
                         	<button class="btn" data-toggle="modal" data-target="#modal-about-us">Learn more</button>
@@ -472,9 +471,9 @@ Rails.application.config.assets.precompile
         				<h4 class="modal-title" id="modal-features-label">Main features</h4>
         			</div>
         			<div class="modal-body">
-        				<p><img src="assets/img/modal/1.jpg" alt=""></p>
+        				<p><img src="<%= asset_path 'modal/1.jpg'%>" alt=""></p>
         				<p>
-	                    	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+	                    	Lorem ipsum dolor sit amet, co'nsectetur a dipisicing elit, sed do eiusmod tempor incididunt ut
 	                    	labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
 	                    </p>
 	                    <ul>
@@ -535,7 +534,7 @@ Rails.application.config.assets.precompile
         				<h4 class="modal-title" id="modal-about-us-label">About our team</h4>
         			</div>
         			<div class="modal-body">
-        				<p><img src="assets/img/modal/2.jpg" alt=""></p>
+        				<p><img src="<%= asset_path 'modal/2.jpg'%>" alt=""></p>
         				<p>
 	                    	Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
 	                    	commodo consequat nostrud tation.
@@ -543,7 +542,7 @@ Rails.application.config.assets.precompile
         				<p>
 	                    	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
 	                    	labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
-	                    </p>
+	                    </p>assets/img/
         			</div>
         			<div class="modal-footer">
         				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

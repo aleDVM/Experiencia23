@@ -4,6 +4,8 @@ body {
     font-weight: 300;
     color: #fff;
     text-align: center;
+
+
 }
 
 strong { font-weight: 500; }
@@ -21,7 +23,7 @@ a, a:hover, a:focus {
 h1, h2 {
 	margin-top: 10px;
 	font-size: 42px;
-    font-weight: 100;
+    font-weight: 100;code
     line-height: 54px;
 }
 
@@ -59,7 +61,7 @@ img { max-width: 100%; }
 	margin: -30px 0 0 -30px;
 	width: 60px;
 	height: 60px;
-	background: url(<%= asset_path 'loading.gif'%>) center center no-repeat;
+	background: url('<%= asset_path "loading.gif" %>') center center no-repeat;
 }
 
 
@@ -68,6 +70,13 @@ img { max-width: 100%; }
 .section-container {
     margin: 0 auto;
     padding-bottom: 160px;
+    height: 100%;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      
 }
 
 .section-description {
@@ -188,7 +197,7 @@ img { max-width: 100%; }
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
     border-radius: 6px;
-    text-shadow: none;
+    text-shadow: none;fa-chevron
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -232,7 +241,7 @@ ul.navbar-nav {
 
 .navbar-brand {
 	width: 60px;
-	background: url(<%= asset_path 'logo.png'%>) left center no-repeat;
+	background: url('<%= asset_path "logo.png"%>') left center no-repeat;
 	text-indent: -99999px;
 }
 
@@ -241,6 +250,15 @@ ul.navbar-nav {
 
 .inner-bg {
     padding: 120px 0;
+}
+.top-content, .screenshots-container, .about-us-container {
+  background-image: url('<%= asset_path "1.jpg" %>');
+}
+.features-container, .pricing-container, .subscribe-container {
+  background-image: url('<%= asset_path "2.jpg"%>');
+}
+.more-features-container, .testimonials-container, .contact-container {
+  background-image: url('<%= asset_path "3.jpg"%>');
 }
 
 .top-content .text {
@@ -261,6 +279,7 @@ ul.navbar-nav {
 .top-content .top-big-link {
 	margin-top: 60px;
 }
+
 
 
 /***** Subscription form *****/
@@ -393,7 +412,7 @@ ul.navbar-nav {
 	cursor: pointer;
 }
 .screenshot-box span:hover { opacity: 0.6; }
-
+code
 .screenshot-box h3 {
 	padding: 10px 0;
 }

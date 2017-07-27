@@ -1,6 +1,6 @@
 
-input[type="text"], 
-textarea, 
+input[type="text"],
+textarea,
 textarea.form-control {
     margin: 0;
     padding: 0 10px;
@@ -10,7 +10,7 @@ textarea.form-control {
     font-family: 'Roboto', sans-serif;
     font-size: 22px;
     font-weight: 300;
-    line-height: 50px;
+    line-height: 50codepx;
     color: #fff;
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
@@ -25,8 +25,8 @@ textarea.form-control {
     transition: all .3s;
 }
 
-input[type="text"]:focus, 
-textarea:focus, 
+input[type="text"]:focus,
+textarea:focus,
 textarea.form-control:focus {
 	outline: 0;
     border: 1px solid #fff;
@@ -40,7 +40,7 @@ input[type="text"]:-ms-input-placeholder, textarea:-ms-input-placeholder, textar
 input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placeholder, textarea.form-control::-webkit-input-placeholder { color: #fff; }
 
 
-.subscribe button, 
+.subscribe button,
 .contact-form button {
 	height: 52px;
     margin: 0;
@@ -67,7 +67,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
     transition: all .3s;
 }
 
-.subscribe button:hover, 
+.subscribe button:hover,
 .contact-form button:hover {
     opacity: 0.6;
     color: #fff;
@@ -78,7 +78,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
     transition: all .3s;
 }
 
-.subscribe button:active, 
+.subscribe button:active,
 .contact-form button:active {
 	outline: 0;
     opacity: 0.6;
@@ -88,7 +88,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
     box-shadow: none;
 }
 
-.subscribe button:focus, 
+.subscribe button:focus,
 .contact-form button:focus {
 	outline: 0;
 	background: #e8643e;
