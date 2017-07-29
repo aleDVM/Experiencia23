@@ -127,7 +127,7 @@ background-image
 
 
 /* Devices with normal screens */
-.ultm-32.ultm-twitter { background-image: url('<%= asset_path "twitter.png"%>'); }
+.ultm-32.ultm-twitter { background-image: url('<%= asset_path "20x20/twitter.png"%>'); }
 .ultm-32.ultm-rss { background-image: url(../ultm-bg-images/20x20/rss.png); }
 .ultm-32.ultm-facebook { background-image: url(../ultm-bg-images/20x20/facebook.png); }
 .ultm-32.ultm-dribbble { background-image: url(../ultm-bg-images/20x20/dribbble.png); }
