@@ -127,7 +127,7 @@ background-image
 
 
 /* Devices with normal screens */
-.ultm-32.ultm-twitter { background-image: url(../ultm-bg-images/20x20/twitter.png); }
+.ultm-32.ultm-twitter { background-image: url('<%= asset_path "twitter.png"%>'); }
 .ultm-32.ultm-rss { background-image: url(../ultm-bg-images/20x20/rss.png); }
 .ultm-32.ultm-facebook { background-image: url(../ultm-bg-images/20x20/facebook.png); }
 .ultm-32.ultm-dribbble { background-image: url(../ultm-bg-images/20x20/dribbble.png); }
@@ -158,7 +158,7 @@ background-image
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (-moz-min-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),
-only screen and (min-device-pixel-ratio: 1.5) {
+only screen and (min-device-pixel-ratio: 1.5) {modal
 
 	.ultm-32 { background-size: 20px 20px; }
 

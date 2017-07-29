@@ -15,6 +15,8 @@ Rails.application.config.assets.paths << Rails.root.join('vendor', 'img')
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'img', 'backgrounds')
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'img', 'modal')
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'img', 'team')
+Rails.application.config.assets.paths << Rails.root.join('vendor', 'img', 'screenshots')
+Rails.application.config.assets.paths << Rails.root.join('vendor', 'img', 'testimonials')
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'ico')
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'Roboto')
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'elegant-font', 'code')
@@ -22,10 +24,10 @@ Rails.application.config.assets.paths << Rails.root.join('vendor', 'elegant-font
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'font-awesome', 'css')
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'font-awesome', 'fonts')
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'ultimate-flat-social-icons', 'ultm-bg-images', '20x20')
-Rails.application.config.assets.paths << Rails.root.join('vendor', 'ultimate-flat-social-icons', 'ultm-bg-images', '40x40')
+
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'ultimate-flat-social-icons', 'ultm-css')
 # application.js, application.css, and all non-JS/CSS in the app/assets
 # folder are already added.
 # Rails.application.config.assets.precompile += %w( admin.js admin.css )
-Rails.application.config.assets.precompile += %w(*.png)
-Rails.application.config.assets.precompile += %w(*.jpg)
+Rails.application.config.assets.precompile += %w( *.jpg, *.png )
+Rails.application.config.assets.precompile += %w( 4.jpg)
