@@ -14,7 +14,7 @@ Rails.application.config.assets.paths << Rails.root.join('vendor', 'bootstrap', 
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'img')
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'img', 'backgrounds')
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'img', 'modal')
-
+Rails.application.config.assets.paths << Rails.root.join('vendor', 'img', 'testimonials')
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'img', 'screenshots')
 
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'ico')
@@ -40,4 +40,8 @@ Rails.application.config.assets.precompile += %w( team/1.jpg)
 Rails.application.config.assets.precompile += %w( team/2.jpg )
 Rails.application.config.assets.precompile += %w( team/3.jpg )
 Rails.application.config.assets.precompile += %w( team/4.jpg )
-Rails.application.config.assets.precompile += %w(20x20/twitter.png)
+Rails.application.config.assets.precompile += %w( 20x20/twitter.png)
+Rails.application.config.assets.precompile += %w( 20x20/facebook.png)
+Rails.application.config.assets.precompile += %w( 20x20/dribbble.png)
+Rails.application.config.assets.precompile += %w( 20x20/pinterest.png)
+Rails.application.config.assets.precompile += %w( 20x20/google-plus-1.png)
